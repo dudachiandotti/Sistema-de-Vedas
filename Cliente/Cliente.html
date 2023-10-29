@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" type="text/css" href="Cliente.css">
+</head>
+<body>
+    <header>
+        <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/305068981_446132010870511_2651180719466311260_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OekFuCD9g6gAX_0kEzH&_nc_ht=scontent-atl3-1.xx&oh=00_AfA1RC1ifPzB5JOhlw9RbXqUY46bOyYd5i5jdcl_h8qNZg&oe=6541FF08" alt="Logo da Empresa" id="logo">
+        <h1>Cadastro de Clientes</h1>
+    </header>
+
+    <section class="botoes">
+        <button id="novo">
+            <img src="c:\Users\eduar\OneDrive\Documentos\duda\SENAC\UC11 - Mód III - PI\Etapa 5 Oficial\Projeto Integrador - Etapa 5\java-sistema-vendas-pizzaria\src\com\gui\img\novo.png" alt="Novo">
+            Novo
+        </button>
+        <button id="salvar">
+            <img src="c:\Users\eduar\OneDrive\Documentos\duda\SENAC\UC11 - Mód III - PI\Etapa 5 Oficial\Projeto Integrador - Etapa 5\java-sistema-vendas-pizzaria\src\com\gui\img\salvar.png" alt="Salvar">
+            Salvar
+        </button>
+        <button id="finalizar">
+            <img src="c:\Users\eduar\OneDrive\Documentos\duda\SENAC\UC11 - Mód III - PI\Etapa 5 Oficial\Projeto Integrador - Etapa 5\java-sistema-vendas-pizzaria\src\com\gui\img\finalizar.png" alt="Finalizar">
+            Finalizar
+        </button>
+        <button id="excluir">
+            <img src="c:\Users\eduar\OneDrive\Documentos\duda\SENAC\UC11 - Mód III - PI\Etapa 5 Oficial\Projeto Integrador - Etapa 5\java-sistema-vendas-pizzaria\src\com\gui\img\excluir.png" alt="Excluir">
+            Excluir
+        </button>
+        <button id="cancelar">
+            <img src="c:\Users\eduar\OneDrive\Documentos\duda\SENAC\UC11 - Mód III - PI\Etapa 5 Oficial\Projeto Integrador - Etapa 5\java-sistema-vendas-pizzaria\src\com\gui\img\cancelar.png" alt="Cancelar">
+            Cancelar
+        </button>
+    </section>
+
+    <section class="dados-do-cliente">
+        <h2>Dados do Cliente</h2>
+        <form>
+            <label for="nome">Nome</label>
+            <div class="input-group">
+                <input type="text" id="nome" placeholder="Procurar clientes">
+                <button id="procurar-clientes">
+                    <img src="c:\Users\eduar\OneDrive\Documentos\duda\SENAC\UC11 - Mód III - PI\Etapa 5 Oficial\Projeto Integrador - Etapa 5\java-sistema-vendas-pizzaria\src\com\gui\img\buscar.png" alt="Procurar Clientes">
+                </button>
+            </div>
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf">
+            <label for="data-nascimento">Data de Nascimento</label>
+            <input type="date" id="data-nascimento">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas da tabela aqui -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="Cliente.js"></script>
+</body>
+</html>
